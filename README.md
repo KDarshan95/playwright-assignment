@@ -16,9 +16,7 @@ This project automates the login functionality of the Practice Test Automation w
 ```bash
 git clone https://github.com/KDarshan95/playwright-assignment.git
 ```
-```bash
-cd playwright-assignment
-```
+
 2. Install dependencies 
 ```bash
 npm install
