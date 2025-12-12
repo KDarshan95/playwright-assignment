@@ -10,23 +10,6 @@ This project automates the login functionality of the Practice Test Automation w
 
 ---
 
-## **Project Structure**
-
-playwright-assignment/
-│
-├─ pages/
-│ └─ LoginPage.ts # Page Object Model for Login Page
-│
-├─ tests/
-│ └─ login.spec.ts # Test cases for login functionality
-│
-├─ test-data/
-│ └─ credentials.ts # Test data for valid and invalid users
-│
-├─ playwright.config.ts # Playwright configuration (baseURL, reporter, etc.)
-├─ package.json # Project dependencies and scripts
-└─ README.md
-
 ## Installation
 
 1. Clone the repository
@@ -35,9 +18,11 @@ git clone https://github.com/KDarshan95/playwright-assignment.git
 cd playwright-assignment
 ```
 2. Install dependencies and playwright
-
+```bash
 npm install
 npx playwright install
+
+
 
 ---
 
