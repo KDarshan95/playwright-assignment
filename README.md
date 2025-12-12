@@ -21,21 +21,24 @@ cd playwright-assignment
 ```bash
 npm install
 npx playwright install
+```
 
 
 
 ---
 
 ## Run Tests
-
+```bash
 npm test (default:headless from config)
 npm run test:headed (headed: Browser Visible)
+```
 
 ---
 
 ## View Report
-
+```bash
 npm run report
+```
 
 ---
 Test data are defined in:  test-data/credentials.ts
