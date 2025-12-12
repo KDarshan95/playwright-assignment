@@ -17,20 +17,27 @@ This project automates the login functionality of the Practice Test Automation w
 git clone https://github.com/KDarshan95/playwright-assignment.git
 cd playwright-assignment
 ```
-2. Install dependencies and playwright
+2. Install dependencies 
 ```bash
 npm install
-npx playwright install
 ```
 
-
+3. Install playwright
+```bash
+npx playwright install
+```
 
 ---
 
 ## Run Tests
+
+default:headless from config
 ```bash
 npm test (default:headless from config)
-npm run test:headed (headed: Browser Visible)
+```
+headed: Browser Visible
+```bash
+npm run test:headed 
 ```
 
 ---
@@ -66,7 +73,7 @@ TC10: Login with empty password
 Instructions:
 
 1. Clone the repo
-2. Run npm install
+2. Run npm install 
 3. Run npx playwright install
 4. Execute npm test (headless) or npm run test:headed (headed)
 5. View results with npm run report
