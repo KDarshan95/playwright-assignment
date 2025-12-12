@@ -15,6 +15,8 @@ This project automates the login functionality of the Practice Test Automation w
 1. Clone the repository
 ```bash
 git clone https://github.com/KDarshan95/playwright-assignment.git
+```
+```bash
 cd playwright-assignment
 ```
 2. Install dependencies 
@@ -31,7 +33,7 @@ npx playwright install
 
 ## Run Tests
 
-default:headless from config
+default: headless from config
 ```bash
 npm test (default:headless from config)
 ```
